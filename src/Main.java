@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
-
 public class Main {
+    public static void main(String[] args) {
+
+        ApplePieRecipe applePie = new ApplePieRecipe();
+        applePie.printIngredients();
+        applePie.printRecept();
+    }
 }
